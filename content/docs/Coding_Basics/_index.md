@@ -1,6 +1,6 @@
 ---
 # Title, summary, and page position.
-linktitle: Chapter 2
+linktitle: Coding Basics
 summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
 weight: 1
 icon: book-reader

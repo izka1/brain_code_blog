@@ -1,6 +1,6 @@
 ---
 # Title, summary, and page position.
-linktitle: Chapter 1
+linktitle: Neuroimaging
 summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
 weight: 1
 icon: book
