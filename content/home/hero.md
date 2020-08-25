@@ -17,7 +17,7 @@ title = "Brain.Code.Blog"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "white"
+   color = "black"
   
   # Background gradient.
   #gradient_start = "#4bb4e3"
@@ -44,7 +44,7 @@ title = "Brain.Code.Blog"
   
 [cta_alt]
   url = "docs/"
-  label = "View Documentation"
+  label = "View Tutorials"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
