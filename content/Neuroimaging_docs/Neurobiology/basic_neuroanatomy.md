@@ -20,18 +20,18 @@ The surface of the brain is made up of sulci and gyri.
 This is a {{< hl >}}highlighted quote{{< /hl >}}.
 
 {{< hl >}}Gyrus{{< /hl >}}=ridge on the surface of the cerebral cortex
-{{< hl >}}Sulcus{{< hl >}}=groove or depression in the cerebral cortex
+{{< hl >}}Sulcus{{< /hl >}}=groove or depression in the cerebral cortex
 
 The brain is divided into 4 lobes:
 - {{< hl >}}Frontal Lobe{{< /hl >}}
-- {{< hl >}}Parietal Lobe{{< hl >}}
-- {{< hl >}}Occipital Lobe{{< hl >}}
-- {{< hl >}}Temporal Lobe{{< hl >}}
+- {{< hl >}}Parietal Lobe{{< /hl >}}
+- {{< hl >}}Occipital Lobe{{< /hl >}}
+- {{< hl >}}Temporal Lobe{{< /hl >}}
 
 There may be three additional regions that we can divided the brain into:
 - {{< hl >}}Limbic Lobe{{< hl >}}: cingulate gyrus connects to the temporal lobe. This connects to the parahippocampal gyrus, creating the limbic lobe
-- {{< hl >}}Insula{{< hl >}}: the Sylvian fissure has a pocket of CSF. The structure inside this region is known as the insula
-- {{< hl >}}Central Lobe{{< hl >}}: either side of the central sulcus there is the precentral gyrus and the post-central gyrus. This combined region is somtimes refered to as the central lobe
+- {{< hl >}}Insula{{< /hl >}}: the Sylvian fissure has a pocket of CSF. The structure inside this region is known as the insula
+- {{< hl >}}Central Lobe{{< /hl >}}: either side of the central sulcus there is the precentral gyrus and the post-central gyrus. This combined region is somtimes refered to as the central lobe
 
 ## Axes
 
