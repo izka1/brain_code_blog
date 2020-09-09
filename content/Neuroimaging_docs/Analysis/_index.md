@@ -1,13 +1,13 @@
 ---
 # Title, summary, and page position.
-linktitle: Neuroimaging
+linktitle: Analysis
 summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
-weight: 1
-icon: book
+weight: 4
+icon: book-reader
 icon_pack: fas
 
 # Page metadata.
-title: Neuroimaging
+title: Analysis
 date: "2018-09-09T00:00:00Z"
 type: book  # Do not modify.
 ---
