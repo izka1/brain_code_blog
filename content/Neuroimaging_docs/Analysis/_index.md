@@ -3,7 +3,7 @@
 linktitle: Analysis
 summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
 weight: 4
-icon: book-reader
+icon: chart-line
 icon_pack: fas
 
 # Page metadata.

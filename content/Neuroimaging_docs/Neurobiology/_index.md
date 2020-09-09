@@ -3,7 +3,7 @@
 linktitle: Neurobiology
 summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
 weight: 1
-icon: book-reader
+icon: brain
 icon_pack: fas
 
 # Page metadata.
