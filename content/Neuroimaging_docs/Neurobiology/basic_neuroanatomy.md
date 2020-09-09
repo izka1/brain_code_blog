@@ -17,8 +17,8 @@ The first anatomically correct drawing of the brain was thought to be provided b
 
 The surface of the brain is made up of sulci and gyri.
 
-{{< hl >}}Gyrus{{< /hl >}}=ridge on the surface of the cerebral cortex
-{{< hl >}}Sulcus{{< /hl >}}=groove or depression in the cerebral cortex
+{{< hl >}}Gyrus{{< /hl >}} = ridge on the surface of the cerebral cortex
+{{< hl >}}Sulcus{{< /hl >}} = groove or depression in the cerebral cortex
 
 The brain is divided into 4 lobes:
 - {{< hl >}}Frontal Lobe{{< /hl >}}
