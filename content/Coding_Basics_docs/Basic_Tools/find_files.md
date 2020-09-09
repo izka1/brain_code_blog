@@ -1,6 +1,6 @@
 ---
-title: Finding and Searching for Files and Directories
-linktitle: Finding and Searching for Files and Directories
+title: Find Files and Directories
+linktitle: Find Files and Directories
 toc: true
 type: book
 date: "2019-05-05T00:00:00+01:00"

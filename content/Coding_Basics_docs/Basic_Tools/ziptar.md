@@ -1,6 +1,6 @@
 ---
-title: Zipping and Tarring
-linktitle: Zipping and Tarring
+title: ZIP and TAR
+linktitle: ZIP and TAR
 toc: true
 type: book
 date: "2019-05-05T00:00:00+01:00"
