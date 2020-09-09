@@ -1,13 +1,13 @@
 ---
 # Title, summary, and page position.
-linktitle: Preprocessing_Freesurfer
+linktitle: FSL
 summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
-weight: 3
+weight: 2
 icon: database
 icon_pack: fas
 
 # Page metadata.
-title: Preprocessing_Freesurfer
+title: FSL
 date: "2018-09-09T00:00:00Z"
 type: book  # Do not modify.
 ---
