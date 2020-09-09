@@ -5,10 +5,11 @@
 
 [[main]]
   name = "Coding Essentials"
-  url = "docs/"
+  url = "Coding_Basics_docs/"
   weight = 10
 
 [[main]]
   name = "Neuroimaging"
-  url = "docs/"
+  url = "Neuroimaging_docs/"
   weight = 10
+  
