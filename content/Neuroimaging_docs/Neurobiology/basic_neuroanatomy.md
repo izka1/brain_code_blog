@@ -19,7 +19,7 @@ The surface of the brain is made up of sulci and gyri.
 
 This is a {{< hl >}}highlighted quote{{< /hl >}}.
 
-{{< hl >}}Gyrus{{< hl >}}=ridge on the surface of the cerebral cortex
+This is a {{< hl >}}Gyrus{{< /hl >}}=ridge on the surface of the cerebral cortex
 {{< hl >}}Sulcus{{< hl >}}=groove or depression in the cerebral cortex
 
 The brain is divided into 4 lobes:
