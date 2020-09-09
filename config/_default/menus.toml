@@ -4,6 +4,11 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Tutorials"
+  name = "Coding Essentials"
+  url = "docs/"
+  weight = 10
+
+[[main]]
+  name = "Neuroimaging"
   url = "docs/"
   weight = 10
