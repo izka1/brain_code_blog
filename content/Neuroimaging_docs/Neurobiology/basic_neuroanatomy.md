@@ -16,9 +16,10 @@ The first anatomically correct drawing of the brain was thought to be provided b
 ## Structure
 
 The surface of the brain is made up of sulci and gyri.
+
 Gyrus = ridge on the surface of the cerebral cortex
+
 Sulcus = groove or depression in the cerebral cortex
-Insert picture*
 
 The brain is divided into 4 lobes:
 - Frontal Lobe
@@ -27,21 +28,9 @@ The brain is divided into 4 lobes:
 - Temporal Lobe
 
 There may be three additional regions that we can divided the brain into:
-- Limbic Lobe: 
-- Insula: 
-- Central Lobe: 
-
-THe parieto occipital suclus appears on the lateral aspct of the brain 
-
-THe notch that separates the occipital and temporal lobs is called the pre-occipital lobe.
-
-We may actually have 7 regions that we can divide the brain into. 
-
-Ddtionally we have: 
-
-- Cinculate gyrus connects to the inferor aspect of the brain (temporal lobe). This connects to the parahippocampal gyrus. This creates the LIMBIC lobe.
-- The Sylivian fissue has a pocket of CSF.  There is a structure inside (similar to an island) This region is called the INSULA.
-- Either side of the central sulcus there is the precentral gyrus and the post-central gyrus. This combined region is somtimes refered to as: the CENTRAL LOBE.
+- Limbic Lobe: cingulate gyrus connects to the temporal lobe. This connects to the parahippocampal gyrus, creating the limbic lobe
+- Insula: the Sylvian fissure has a pocket of CSF. The structure inside this region is known as the insula
+- Central Lobe: either side of the central sulcus there is the precentral gyrus and the post-central gyrus. This combined region is somtimes refered to as the central lobe
 
 ## Axes
 
