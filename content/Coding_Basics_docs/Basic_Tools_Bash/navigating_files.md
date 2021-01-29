@@ -13,7 +13,8 @@ Modern filesystems are made up of trees of directories (folders) and files.
 
 ### Console and Terminal
 Instead of navigating files and directories using OS GUIs (Figure 1), we can navigate teh system using the terminal/console. The console is technically the devise, and the terminal is the softare nested inside the console, but the two terms are used synonymously.
-There are a number of terminal applications that are popular on different operating systems. I have listed a few popular examples: 
+There are a number of terminal applications that are popular on different operating systems. I have listed a few popular examples:
+
 | Operating System  | Terminal Emulators      | Notes          								|
 | ------------------| ------------------------| --------------------------------------------|
 | macOS             | - terminal              | default macOS terminal                      |
