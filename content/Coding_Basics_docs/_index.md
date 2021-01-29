@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Welcome to Basic Coding Tools for Neuroscientists
 type: book  # Do not modify.
 ---
 

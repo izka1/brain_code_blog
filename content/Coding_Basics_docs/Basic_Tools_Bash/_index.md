@@ -1,13 +1,13 @@
 ---
 # Title, summary, and page position.
-linktitle: Basic Tools
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
+linktitle: Basic Tools for Bash
+summary: Introduction to some fundamental coding tools to help you navigate the terminal, and write your own scripts for data processing.
 weight: 1
 icon: tools
 icon_pack: fas
 
 # Page metadata.
-title: Basic Tools
+title: Basic Tools for Bash
 date: "2018-09-09T00:00:00Z"
 type: book  # Do not modify.
 ---
