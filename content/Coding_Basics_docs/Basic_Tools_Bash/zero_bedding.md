@@ -1,6 +1,6 @@
 ---
-title: Zero Bedding
-linktitle: Zero Bedding
+title: Zero Padding
+linktitle: Zero Padding
 toc: true
 type: book
 date: "2019-05-05T00:00:00+01:00"
@@ -9,13 +9,49 @@ date: "2019-05-05T00:00:00+01:00"
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 5
 ---
+## What is zero padding?
+Zero padding a number or a variable means putting leading zeros to a number, of a desired length.
+Zero padding can be useful if you are labelling subjects, scan numbers or visit numbers etc.
+### Example
+With a datset of 50 subjects, your subject directories may look as follows:
+```bash
+sub-1
+sub-2
+sub-3
+...
+sub-10
+sub-11
+...
+sub-49
+sub-50
+```
+This will be problematic when analysing data iterativly. Data in this format will not process sequentially from ```sub-1``` to ```sub-50```.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
-
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+#### ```Printf``` command
+Using the print format command, you can decide the length of your zero-padding. In this this example we are padding our number to a length of 4 (```%04d```). The ```\n``` prints a new line after variable ```x```. 
+```bash
+x=23
+printf "%04d\n" $x
+```
+```bash
+0023
+```
+If we employ this technique in a loop, we can create the following output: 
+```bash
+for i in {1..50}; do
+	subject_number=`printf "sub-%05d\n" $i`
+	echo "$subject_number"
+done
+```
+```bash
+sub-00001
+sub-00002
+sub-00003
+...
+sub-00010
+sub-00011
+...
+sub-00049
+sub-00050
+```
+This technique is particularly helpful when reformatting neuroimaging data to follow the standardised BIDS format.
