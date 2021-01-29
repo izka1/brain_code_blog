@@ -10,32 +10,32 @@ date: "2019-05-05T00:00:00+01:00"
 weight: 6
 ---
 
-##Find files with a specified string: 
+## Find files with a specified string: 
 ### Method 1
-Use find funtion (with a wildcard)
-This method operated recurrivly in current folder and subfolders.
-```toml
+Use find funtion (with a wildcard).
+This method operates recursivly in current folder and subfolders.
+```bash
 find . -name 'mystring*'
 ```
 If you want to restrict you seach only to file use -type f:
-```toml
+```bash
 find . -name 'mystring*' -type f
 ```
 If you want to use a case-insensitive search use -iname instead of -name:
-```toml
+```bash
 find . -iname 'mystring*'
 ```
 If you want to search in a specific directory, replace the . , which indicates you are searching in your current directory with your path to specified directory
-```toml
+```bash
 find /path -name 'mystring*'
 ```
 If you want to search for a file or directory and show theur size in MB:
-```toml
+```bash
 find /path -name 'mystring*' -exec du -sm {} \
 ```
 ### Method 2
 Use grep (with a wildcard)
 This method operates only in the current directory. It will list the files with the specified string.
-```toml
+```bash
 ls | grep "mystring*"
 ```
