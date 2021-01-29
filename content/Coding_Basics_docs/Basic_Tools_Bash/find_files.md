@@ -11,9 +11,8 @@ weight: 6
 ---
 
 ## Find files with a specified string: 
-### Method 1
-Use find funtion (with a wildcard).
-This method operates recursivly in current folder and subfolders.
+### Method 1: find funtion
+Use ```find``` funtion (with a wildcard). This method operates recursivly in current folder and subfolders.
 ```bash
 find . -name 'mystring*'
 ```
@@ -33,7 +32,7 @@ If you want to search for a file or directory and show theur size in MB:
 ```bash
 find /path -name 'mystring*' -exec du -sm {} \
 ```
-### Method 2
+### Method 2: grep function
 Use grep (with a wildcard)
 This method operates only in the current directory. It will list the files with the specified string.
 ```bash
