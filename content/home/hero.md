@@ -53,6 +53,6 @@ title = "Brain.Code.Blog"
 
 For [Academic Website Builder](https://sourcethemes.com/academic/).
 
-Write something interesting about your project here.
+A Beginers Guide to Computer Science for Neuroscientists
 
 <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
