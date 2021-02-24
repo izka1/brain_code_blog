@@ -6,7 +6,6 @@ date: "2019-05-05T00:00:00+01:00"
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
-`ls -a`= list files including those that may be hidden (dot files). Hidden files that will become particularly important in most cases are bash profile scripts eg. **_bashrc, .bash_profile, .profile_**
 # Fundamental commands to navigate the terminal
 ### Listing files
 ```bash
