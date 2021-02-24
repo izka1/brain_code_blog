@@ -17,7 +17,7 @@ There are a number of terminal applications that are popular on different operat
 
 | Operating System  | Terminal Emulators      | Notes          								|
 | ------------------| ------------------------| --------------------------------------------|
-| macOS             | - terminal              | default macOS terminal                      |
+| macOS             | - Terminal              | default macOS terminal                      |
 | 	                | - iTerm2                | open-source terminal specifically for macOS	|
 |                   | - xterm                 | default terminal when X11.app starts        |
 | Microsoft Windows | - Windows Terminal      |	free in Microsoft Store						|
