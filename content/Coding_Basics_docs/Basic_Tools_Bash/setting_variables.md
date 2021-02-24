@@ -14,6 +14,7 @@ We can assign variable names to values within scripts (strings, integers, etc.).
 ## Basics: How to assign variables?
 - We can create variables easily in bash using ```=```.
 - We can use ```$``` to call variables.
+
 ####1. Variables for file paths and files
 ```bash
 ROOT="/Users/bob/Documents/mri/data" #path to data directory
@@ -29,14 +30,14 @@ It may be useful to assign variables in more complex ways by using the results o
 
 ####2. Variables in ```for``` loops
 Using the example from earlier, we can assign variables within a for loop. We do not need to assign using ```=```. 
-Example 1
+#####Example 1
 ```bash
 for subject in ${subject_list}; do
 	echo "Processing subject ${subject}"
 done
 ```
 In this case, the first line of the $subject_list will be used as a variable $subject, in the first iteration of the loop. The second line of the ```$subject_list``` will be used as a variable ```$subject```, in the second iteration of the loop and so on. 
-Example 2
+######Example 2
 ```bash
 for i in {1000..1500} ; do
 	mkdir -p ${ROOT}/sub-${i}/ses-1/dwi
