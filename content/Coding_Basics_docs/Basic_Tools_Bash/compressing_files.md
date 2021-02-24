@@ -7,7 +7,7 @@ date: "2019-05-05T00:00:00+01:00"
 
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 4
+weight: 7
 ---
 There are a vast number of ways we can apply ```zip```,```tar``` or ```gzip``` to bundle and/or compress and uncompress files. There are various packages that can be installed to facilliate this,b but here we focus on standard commands available on the command line using zip, tar, gz, bz2 and gz.  
 

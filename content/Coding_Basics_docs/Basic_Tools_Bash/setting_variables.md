@@ -7,7 +7,7 @@ date: "2019-05-05T00:00:00+01:00"
 
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 8
+weight: 3
 ---
 We can assign variable names to values within scripts (strings, integers, etc.).
 ## Basics: How to assign variables?
