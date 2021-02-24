@@ -67,7 +67,7 @@ $@ 		# All command line parameters passed to the script
 $? 		# Exit status of the last process to run
 $$ 		# Process ID (PID) of the current script (PID=number used by most operating system to uniquely identify an active process)
 $USER 		# Username of the user executing the script
-$HOSTNAME 	# Hostname of the computer running the script (Hostname=what a device 				is called on a network. Also known as computer name or site name)
+$HOSTNAME 	# Hostname of the computer running the script (Hostname=what a device 			is called on a network. Also known as computer name or site name)
 $SECONDS 	# The number of seconds the script has been running for
 $RANDOM 	# Returns a random number
 $LINENO 	# Returns the current line number of the script
