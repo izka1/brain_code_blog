@@ -61,13 +61,13 @@ echo "$0: subs_dir=$subs_dir, error_dir=$error_dir" # check their values
 In this example, ```i``` is used as the variable name, whcih is common for numerical (integer) loops. It iterated from loops with the assigned a value of 1000 to 1500. In this way we are able to create a BIDS data structure of 500 subjects. 
 ## Special Variables
 ```bash
-$0 			# Filename of the script
-$# 			# Number of command line parameters that are passed to the script
-$@ 			# All command line parameters passed to the script
-$? 			# Exit status of the last process to run
-$$ 			# Process ID (PID) of the current script (PID=number used by most operating system to uniquely identify an active process)
+$0 		# Filename of the script
+$# 		# Number of command line parameters that are passed to the script
+$@ 		# All command line parameters passed to the script
+$? 		# Exit status of the last process to run
+$$ 		# Process ID (PID) of the current script (PID=number used by most operating system to uniquely identify an active process)
 $USER 		# Username of the user executing the script
-$HOSTNAME 	# Hostname of the computer running the script (Hostname=what a device is called on a network. Also known as computer name or site name)
+$HOSTNAME 	# Hostname of the computer running the script (Hostname=what a device 				is called on a network. Also known as computer name or site name)
 $SECONDS 	# The number of seconds the script has been running for
 $RANDOM 	# Returns a random number
 $LINENO 	# Returns the current line number of the script
