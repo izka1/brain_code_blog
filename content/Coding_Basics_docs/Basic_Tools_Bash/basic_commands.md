@@ -6,38 +6,37 @@ date: "2019-05-05T00:00:00+01:00"
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
-# Fundamental commands to navigate the terminal
 ### Listing files
 ```bash
-ls 		# list files in directory
-ls -a 	# list files including those that may be hidden (dot files). Hidden files that will become particularly important in most cases are bash profile scripts eg. **_bashrc, .bash_profile, .profile_**
-ls -l 	#list (long option) list of files and what kind of files they are, what size they are, date created, owners and permissions
+ls 	# list files in directory
+ls -a 	# list files including those that may be hidden (dot files). Hidden files that will become particularly important in most cases are bash profile scripts eg. _bashrc, .bash_profile, .profile_
+ls -l 	# list (long option) list of files and what kind of files they are, what size they are, date created, owners and permissions
 ls -lrt # list files in reverse time order
 ```
 ### Basic Navigation
 ```bash
-cd 		# change directory
+cd 	# change directory
 cd .. 	# move back up the directory tree one level
-cd ../../.. # move back up the directory tree three levels
-pwd 	# print working directory
+cd ../../..	# move back up the directory tree three levels
+pwd		# print working directory
 ```
-#### Move, rename and copy
+### Move, rename and copy
 The same command is used to copy and rename files and directories
 ```bash
 mv file_1.txt /path/to/new/directory 	# moves file_1.txt into a new directory
 mv file_1.txt data.txt 	# renames file_1.txt to data.txt, but keeps it in the same location
-mv file_1.txt /path/to/new/directory/data.txt 	# renames file_1.txt to data.txt, and moves the renamed file into a new directory
+mv file_1.txt /path/to/new/directory/data.txt # renames file_1.txt to data.txt, and moves the renamed file into a new directory
 cp file_1.txt file_1_copy.txt 	# copies file_1.txt and saves it in the same directory as file_1_copy.txt
-cp file_1.txt /path/to/new/directory/file_1.txt 	# copies file_1.txt and saves it in a new directory as file_1.txt
+cp file_1.txt /path/to/new/directory/file_1.txt # copies file_1.txt and saves it in a new directory as file_1.txt
 cp -r directory_1 directory_1_copy # copies directory_1 (recursively) and saves it in the same directory as directory_1_copy
 ```
-#### Removing files and directories
+### Removing files and directories
 ```bash
 rm file_1.txt	# remove (file) Note: use this command with caution
 rmdir directory_1	# remove (directories)
 rm -r directory_1	# remove (recursivly) removes all files and directories downstream of removed directory. It can be used instead of rmdir
 ```
-## Creating, writing and editing new files and directories
+### Creating, writing and editing new files and directories
 ```bash
 mkdir new_directory	# create directory called new_directory
 touch new_file.sh # create a script (.sh) document entitled new_file
@@ -61,7 +60,7 @@ less filename	# smaller version output
 man any_command	# displays information/ user manual for that specific command
 ```
 
-### Permissions:
+### Permissions
 
 `r` =read
 `w` =write
@@ -82,6 +81,3 @@ Now you can run your script using:
 ```bash
 ./new_file.sh # Create a script (.sh) document entitled new_file
 ```
-### When do we need to use paths? 
-`man (followed by a command)`= displays information about comands
-
