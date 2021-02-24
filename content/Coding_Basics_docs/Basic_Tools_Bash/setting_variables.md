@@ -26,6 +26,7 @@ mrisubj="${ROOT}/fmri" #path to funtional MRI data directory
 dtisubj="${ROOT}/dti" #path to DTI data directory
 ```
 It may be useful to assign variables in more complex ways by using the results of an executes command within ``` ` ```
+
 ####2. Variables in ```for``` loops
 Using the example from earlier, we can assign variables within a for loop. We do not need to assign using ```=```. 
 Example 1
@@ -34,7 +35,7 @@ for subject in ${subject_list}; do
 	echo "Processing subject ${subject}"
 done
 ```
-In this case, the first line of the $subject_list will be used as a variable $subject, in the first iteration of the loop. The second line of the $subject_list will be used as a variable $subject, in the second iteration of the loop and so on. 
+In this case, the first line of the $subject_list will be used as a variable $subject, in the first iteration of the loop. The second line of the ```$subject_list``` will be used as a variable ```$subject```, in the second iteration of the loop and so on. 
 Example 2
 ```bash
 for i in {1000..1500} ; do
