@@ -47,6 +47,12 @@ title = "Brain.Code.Blog"
   label = "View Tutorials"
 
 # Note. An optional note to show underneath the links.
+  
+[cta_note]
+  label = '<span class="js-github-release" data-repo="gcushen/hugo-academic">Show your product version here:<!-- V --></span>'
+ +++
+
+ For [Academic Website Builder](https://sourcethemes.com/academic/).
 
 Computer Science Basics for Neuroscientists
 
