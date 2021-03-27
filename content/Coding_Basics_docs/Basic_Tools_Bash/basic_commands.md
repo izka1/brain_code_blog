@@ -6,20 +6,35 @@ date: "2019-05-05T00:00:00+01:00"
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
-### Listing files
+## Basic Navigation
+Directories and files in an operating system can be navigated using the terminal. At the base of the file tree we have the root directory. Most operating systems have one root directory called ```\```. Some operating systems like Windows, have multiple root directories which are are named ```C:\```, ```A:\```, etc.
+### Print working directory (```pwd```)
+To show which directory we are currently in, we type ```pwd``` in the terminal. This can be particularly useful if we want to see the underlying file structure of a directory or file of interest.
 ```bash
-ls 	# list files in directory
+pwd
+```
+### Change directory (```cd```)
+To change directory we use: ```cd```; followed by the path to the new directory. In this example we are navigating directly to the directory titled Coding_Basics_docs
+```bash
+cd ~ 		# navigate into the root (home) directory
+cd 			# navigate into the root (home) directory
+cd /Users/Isabella/Documents/brain_code_blog/content/Coding_Basics_docs # change working directory to specified directory (folder), in this case the Coding_Basics_docs folder
+cd .. 		# traverses backwards one step through the file tree
+cd ../.. 	# traverses backwards two steps through the file tree
+cd - 		# go back to the most recent directory
+```
+Good Habit #1 : Use descriptive directory names and files names, where possible. Hoarding a bunch of 'untiltled_8.txt' files or vague directory names can make it less intuitive to navigate your system.
+Good Habit #2 : Bash is whitespace sensitive meaning each argument is separated by a space. When naming files and directories enure that you don't use spaces. Often ```-``` or ```_``` are used to join a string of words in filenames or directory names. 
+### List contents of a directory (```ls```)
+To list the contents of a directory we use: ```ls```.
+```bash
+ls 		# list files in directory
 ls -a 	# list files including those that may be hidden (dot files). Hidden files that will become particularly important in most cases are bash profile scripts eg. _bashrc, .bash_profile, .profile_
 ls -l 	# list (long option) list of files and what kind of files they are, what size they are, date created, owners and permissions
+ls -la  # combines funtions of both -l and -a flags
 ls -lrt # list files in reverse time order
 ```
-### Basic Navigation
-```bash
-cd 	# change directory
-cd .. 	# move back up the directory tree one level
-cd ../../..	# move back up the directory tree three levels
-pwd		# print working directory
-```
+## Basic Editing
 ### Move, rename and copy
 The same command is used to copy and rename files and directories
 ```bash
