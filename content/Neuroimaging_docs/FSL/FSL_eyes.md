@@ -12,6 +12,7 @@ FSLeyes is a software for viewing for 3D and 4D neuroimaging data. It comes as a
 
 ## Installation and Setup
 FSLeyes is automatically installed as part of the [FSL installation](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSLeyes). However you may want to update FSLeyes over time. 
+
 To **update** FSLeyes use ```conda``` to run the following command: 
 ```bash
 $FSLDIR/fslpython/bin/conda update -n fslpython -c conda-forge --update-deps fsleyes
@@ -37,7 +38,7 @@ The interface includes:
 	
 - **Location Panel**: The location panel indicates the display location using space-specific coordinates and a voxel-based location.
 
-- (insert figure)
+{{< figure src="FSLeyes_display.png">}}
 
 ## Command Line Interface
 The command line interface can be particularly helpful to open up multiple images consitently accross multiple subject scans.
