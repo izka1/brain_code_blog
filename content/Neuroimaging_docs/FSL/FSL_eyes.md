@@ -25,13 +25,19 @@ There are more advanced options for [downloading FSLeyes using Python](https://u
 ## Overlays
 
 The interface includes: 
-	- **The view**: This is where we view the overlays. The standard view is the **_orthographic view_** (ortho view) and is shown in the example below. However you can view images using using a **_lightbox view_** (series of adjacent slices along a single plane through your overlay), a **_3D view_** or a range of **_plot views_** eg. a time series view, a power spectrum and a histogram of voxel intensity.
-	- **View toolbar**: This toolbar allows you to adjust display settings of the view.
-	- **Overlay List**: Overlays can be 2D, 3D or 4D images or datafiles that can be views in FSLeyes. You can add multiple overlays and change their visibility and display order.
-	**_Note: multiple overlays must be in the same space eg.anatomical, Standard MNI, diffusion space_**
-	- **Overlay toolbar**: This toolbar allows you change display setting of each individual overlay in your overlay list. This may be particularly helful when using masks and highlighting areas of interest. 
-	- **Location Panel**: The location panel indicates the display location using space-specific coordinates and a voxel-based location.
-	- (insert figure)
+- **The view**: This is where we view the overlays. The standard view is the **_orthographic view_** (ortho view) and is shown in the example below. However you can view images using using a **_lightbox view_** (series of adjacent slices along a single plane through your overlay), a **_3D view_** or a range of **_plot views_** eg. a time series view, a power spectrum and a histogram of voxel intensity.
+	
+- **View toolbar**: This toolbar allows you to adjust display settings of the view.
+	
+- **Overlay List**: Overlays can be 2D, 3D or 4D images or datafiles that can be views in FSLeyes. You can add multiple overlays and change their visibility and display order.
+
+**_Note: multiple overlays must be in the same space eg.anatomical, Standard MNI, diffusion space_**
+
+- **Overlay toolbar**: This toolbar allows you change display setting of each individual overlay in your overlay list. This may be particularly helful when using masks and highlighting areas of interest. 
+	
+- **Location Panel**: The location panel indicates the display location using space-specific coordinates and a voxel-based location.
+
+- (insert figure)
 
 ## Command Line Interface
 The command line interface can be particularly helpful to open up multiple images consitently accross multiple subject scans.
@@ -55,7 +61,7 @@ While some of the many useful arguments are detailed in the [FSLeyes docs](https
 3. Copy the code from the window. 
 > This code can be used to show you the exact settings used in your desired display. It may be easier to edit settings using this working template. You may want to use this methods to replicate views with complex display settgins across a number of subject scans. 
 
-### Save FSLeyes screenshots using the Command Line Interface
+### FSLeyes screenshots using the Command Line Interface
 Off-screen rendering in FSLeyes is very helpful for quality checking scans, particularly if you are processing a larger quantity of subject scans. 
 For off-screen rendering we use the following command: 
 ```bash
