@@ -38,7 +38,7 @@ The interface includes:
 	
 - **Location Panel**: The location panel indicates the display location using space-specific coordinates and a voxel-based location.
 
-{{< figure src="FSLeyes_display.png">}}
+{{< figure src="static/media/FSLeyes_display.png">}}
 
 ## Command Line Interface
 The command line interface can be particularly helpful to open up multiple images consitently accross multiple subject scans.
